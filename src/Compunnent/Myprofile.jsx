@@ -24,7 +24,7 @@ function Myprofile() {
     //profile
 const myprofile=async()=>{
      try {
-          const response=await fetch(`http://localhost:8000/app/auth/profile`,{
+          const response=await fetch(`https://blog-app-gbau.onrender.com/app/auth/profile`,{
             method:'get',
               headers:{
          Authorization:`Bearer${token1}`
